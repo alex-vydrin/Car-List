@@ -1,0 +1,90 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1wy-iS-uqr"; */
+"1wy-iS-uqr.text" = "Label";
+
+/* Class = "UITextField"; text = "choose"; ObjectID = "2pA-Pq-A4o"; */
+"2pA-Pq-A4o.text" = "choose";
+
+/* Class = "UILabel"; text = "description:"; ObjectID = "43a-4z-BZ8"; */
+"43a-4z-BZ8.text" = "description:";
+
+/* Class = "UILabel"; text = "20000"; ObjectID = "9Oq-0D-SwJ"; */
+"9Oq-0D-SwJ.text" = "20000";
+
+/* Class = "UILabel"; text = "Transmission:"; ObjectID = "AEH-sI-Q3L"; */
+"AEH-sI-Q3L.text" = "Transmission:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "B85-Zr-2uw"; */
+"B85-Zr-2uw.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CYQ-Hi-Rth"; */
+"CYQ-Hi-Rth.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Car price..."; ObjectID = "Gg1-za-xqx"; */
+"Gg1-za-xqx.placeholder" = "Car price...";
+
+/* Class = "UITextField"; text = "choose"; ObjectID = "HKZ-iV-loq"; */
+"HKZ-iV-loq.text" = "choose";
+
+/* Class = "UILabel"; text = "Engine: "; ObjectID = "OzC-IP-mSR"; */
+"OzC-IP-mSR.text" = "Engine: ";
+
+/* Class = "UILabel"; text = "Car:"; ObjectID = "THx-7b-isG"; */
+"THx-7b-isG.text" = "Car:";
+
+/* Class = "UITextField"; placeholder = "Car model..."; ObjectID = "Ueg-dH-qfO"; */
+"Ueg-dH-qfO.placeholder" = "Car model...";
+
+/* Class = "UILabel"; text = "Condition:"; ObjectID = "YQ1-a4-1tz"; */
+"YQ1-a4-1tz.text" = "Condition:";
+
+/* Class = "UILabel"; text = "Condition:"; ObjectID = "Yhr-EA-pjq"; */
+"Yhr-EA-pjq.text" = "Condition:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "b27-bF-CEO"; */
+"b27-bF-CEO.text" = "Price:";
+
+/* Class = "UILabel"; text = "Engine: "; ObjectID = "bos-w6-GbI"; */
+"bos-w6-GbI.text" = "Engine: ";
+
+/* Class = "UITextField"; text = "choose"; ObjectID = "ca9-CW-FUk"; */
+"ca9-CW-FUk.text" = "choose";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dL4-Zs-Jq7"; */
+"dL4-Zs-Jq7.text" = "Label";
+
+/* Class = "UILabel"; text = "Car:"; ObjectID = "dw2-Ai-QCU"; */
+"dw2-Ai-QCU.text" = "Car:";
+
+/* Class = "UINavigationItem"; title = "Car list"; ObjectID = "eTF-BB-brw"; */
+"eTF-BB-brw.title" = "Car list";
+
+/* Class = "UILabel"; text = "Transmission:"; ObjectID = "ekk-B8-9DZ"; */
+"ekk-B8-9DZ.text" = "Transmission:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "k4Y-lG-eE4"; */
+"k4Y-lG-eE4.text" = "Label";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "rVm-7f-L3i"; */
+"rVm-7f-L3i.text" = "Price";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "sIa-Lu-RIA"; */
+"sIa-Lu-RIA.text" = "Price";
+
+/* Class = "UIBarButtonItem"; title = "Add car"; ObjectID = "uwa-7x-BnS"; */
+"uwa-7x-BnS.title" = "Add car";
+
+/* Class = "UILabel"; text = "Car:"; ObjectID = "vT9-EX-fq1"; */
+"vT9-EX-fq1.text" = "Car:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vgv-5d-ajd"; */
+"vgv-5d-ajd.text" = "Label";
+
+/* Class = "UILabel"; text = "description:"; ObjectID = "wBl-Ub-cgk"; */
+"wBl-Ub-cgk.text" = "description:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "x7g-El-GN5"; */
+"x7g-El-GN5.text" = "Label";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "z23-Zi-sSg"; */
+"z23-Zi-sSg.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";

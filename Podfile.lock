@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (2.0.2)
+  - ImagePicker (1.3.0)
+  - ImageSlideshow (0.5.0):
+    - ImageSlideshow/Core (= 0.5.0)
+  - ImageSlideshow/Core (0.5.0)
+  - SwiftOpenWeatherMapAPI (0.0.8):
+    - Alamofire (~> 2.0)
+    - SwiftyJSON (~> 2.3.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - ImagePicker
+  - ImageSlideshow (~> 0.5)
+  - SwiftOpenWeatherMapAPI
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  ImagePicker: ed649bfeb850b2b8715c9e95a35725c730b5f627
+  ImageSlideshow: b2662127d093a42d9595a6b40af2817d064df251
+  SwiftOpenWeatherMapAPI: 4c9cfafe5de8af623dc7a06d2e8c564295ee7dba
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: f2e10cba4e9b32e46652ceabca106097a48ad65d
+
+COCOAPODS: 1.0.1

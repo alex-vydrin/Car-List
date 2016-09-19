@@ -1,0 +1,46 @@
+/* 
+  Localizable.strings
+  Car List
+
+  Created by Alex on 18.09.16.
+  Copyright © 2016 Alex Vydrin. All rights reserved.
+*/
+
+/* Choose value in pickerview */
+"CHOOSE" = "choose";
+
+/* Manual car transmission */
+"MANUAL" = "manual";
+
+/* Auto car transmission */
+"AUTO" = "auto";
+
+/* Tiptronic car transmission */
+"TIPTRONIC" = "tiptronic";
+
+/* Robotic car transmission */
+"ROBOTIC" = "robotic";
+
+/* Good car condition */
+"GOOD" = "Good";
+
+/* Normal car condition */
+"NORMAL" = "Normal";
+
+/* Car condition needs repairs */
+"REPAIR" = "Needs repairs";
+
+/* Car sold for parts */
+"PARTS" = "For parts";
+
+/* Something went wrong */
+"OOPS" = "Ooops...";
+
+/* Please, fill all fields */
+"FIIL_FIELDS" = "Please, fill all fields";
+
+/* Agree/Ok button */
+"OK" = "OK";
+
+/* Place holder for textView */
+"START_TYPING" = "Start typing...";

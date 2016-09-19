@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WeatherView" customModule="Car_List" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="220"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sunny" translatesAutoresizingMaskIntoConstraints="NO" id="gMD-W6-rQg">
+                    <rect key="frame" x="0.0" y="0.0" width="335" height="220"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUH-8Y-nIX">
+                    <rect key="frame" x="97" y="36" width="142" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRe-7U-EAt">
+                            <rect key="frame" x="0.0" y="0.0" width="82" height="60"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hBK-op-7fh">
+                            <rect key="frame" x="82" y="0.0" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="hBK-op-7fh" secondAttribute="height" multiplier="1:1" id="32F-YM-fX5"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhN-Ov-Prw" customClass="DashedLineView" customModule="Car_List" customModuleProvider="target">
+                    <rect key="frame" x="84" y="130" width="168" height="1"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="pra-Uj-ITd"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnw-Fw-cwv">
+                    <rect key="frame" x="133" y="139" width="70" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ba7-P8-QIi">
+                    <rect key="frame" x="8" y="101" width="319" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gMD-W6-rQg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4St-Ji-fHX"/>
+                <constraint firstItem="nhN-Ov-Prw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5Z7-wq-tfu"/>
+                <constraint firstItem="iUH-8Y-nIX" firstAttribute="centerY" secondItem="gMD-W6-rQg" secondAttribute="centerY" multiplier="0.6" id="8UO-Yc-4Q7"/>
+                <constraint firstItem="vnw-Fw-cwv" firstAttribute="top" secondItem="nhN-Ov-Prw" secondAttribute="bottom" constant="8" id="9KY-MB-Qws"/>
+                <constraint firstItem="vnw-Fw-cwv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9bd-0v-UWL"/>
+                <constraint firstItem="gMD-W6-rQg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HFO-Vv-5kf"/>
+                <constraint firstItem="nhN-Ov-Prw" firstAttribute="top" secondItem="ba7-P8-QIi" secondAttribute="bottom" constant="5" id="Nzm-O2-TPK"/>
+                <constraint firstItem="nhN-Ov-Prw" firstAttribute="top" secondItem="iUH-8Y-nIX" secondAttribute="bottom" constant="30" id="Qkl-gK-Dy1"/>
+                <constraint firstItem="vnw-Fw-cwv" firstAttribute="top" secondItem="nhN-Ov-Prw" secondAttribute="bottom" constant="8" id="YJq-Pp-Nd4"/>
+                <constraint firstAttribute="bottom" secondItem="gMD-W6-rQg" secondAttribute="bottom" id="ac0-rh-czt"/>
+                <constraint firstItem="nhN-Ov-Prw" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="aeC-Ia-fYt"/>
+                <constraint firstItem="ba7-P8-QIi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="d2p-QD-gUf"/>
+                <constraint firstItem="iUH-8Y-nIX" firstAttribute="centerX" secondItem="gMD-W6-rQg" secondAttribute="centerX" id="eRE-Kf-YpJ"/>
+                <constraint firstAttribute="trailing" secondItem="ba7-P8-QIi" secondAttribute="trailing" constant="8" id="ki4-5s-ifW"/>
+                <constraint firstItem="ba7-P8-QIi" firstAttribute="top" secondItem="iUH-8Y-nIX" secondAttribute="bottom" constant="5" id="ude-GT-bia"/>
+                <constraint firstAttribute="trailing" secondItem="gMD-W6-rQg" secondAttribute="trailing" id="xxc-hD-SvD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Qkl-gK-Dy1"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="cityLabel" destination="vnw-Fw-cwv" id="HLG-VZ-KuB"/>
+                <outlet property="tempLabel" destination="rRe-7U-EAt" id="aEX-9E-kQ2"/>
+                <outlet property="weatherIconView" destination="hBK-op-7fh" id="Yqs-wN-ZHb"/>
+                <outlet property="weatherLabel" destination="ba7-P8-QIi" id="uqa-c1-Dyn"/>
+            </connections>
+            <point key="canvasLocation" x="344.5" y="-14"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Sunny" width="700" height="460"/>
+    </resources>
+</document>

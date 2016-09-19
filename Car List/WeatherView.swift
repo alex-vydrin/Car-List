@@ -23,7 +23,7 @@ class WeatherView: UIView {
         cityLabel.text = weatherDict["city"]! ?? "--"
         tempLabel.text = weatherDict["temp"]! ?? "--"
         weatherLabel.text = weatherDict["weather"]! ?? ""
-        weatherIconView.image = UIImage(named: (weatherDict["icon"] ?? "")!) ?? UIImage()
+        weatherIconView.image = (UIImage(named: (weatherDict["icon"]! ?? "" )) ?? UIImage())
     }
     
     

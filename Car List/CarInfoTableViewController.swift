@@ -81,12 +81,11 @@ class CarInfoTableViewController: UITableViewController {
             let x = width * CGFloat(index)
             let imageView = UIImageView(frame: CGRect(x: x, y: 0, width: width, height: scrollView.frame.height))
             imageView.image = image
+            imageView.contentMode = .ScaleAspectFill
             scrollView.addSubview(imageView)
         }
         scrollView.contentSize = CGSizeMake(width * CGFloat(images.count), scrollView.frame.size.height)
-        scrollView.contentMode = .ScaleAspectFill
-        scrollView.layer.masksToBounds = true
-       
+
         pageControl.numberOfPages = images.count
         pageControl.currentPage = 0
         pageControl.addTarget(self, action: #selector(CarInfoTableViewController.changePage), forControlEvents: .ValueChanged)
